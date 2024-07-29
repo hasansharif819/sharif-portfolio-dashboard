@@ -13,15 +13,15 @@ const Login = () => {
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
 
-  // const defaultValues = {
-  //   email: "sharif@gmail.com",
-  //   password: "123456",
-  // };
-
   const defaultValues = {
-    email: "youremail@gmail.com",
-    password: "your password",
+    email: "sharif@gmail.com",
+    password: "123456",
   };
+
+  // const defaultValues = {
+  //   email: "youremail@gmail.com",
+  //   password: "your password",
+  // };
 
   const [login] = useLoginMutation();
 

@@ -5,6 +5,7 @@ import CreateProject from "../pages/admin/adminManagementCreate/CreateProject";
 import CreateSkill from "../pages/admin/adminManagementCreate/CreateSkill";
 import AdminLists from "../pages/admin/adminManagementView/adminLists";
 import Blogs from "../pages/admin/adminManagementView/Blogs";
+import Contact from "../pages/admin/adminManagementView/Contact";
 import Experiences from "../pages/admin/adminManagementView/Experience";
 import Projects from "../pages/admin/adminManagementView/Projects";
 import Skills from "../pages/admin/adminManagementView/Skills";
@@ -28,6 +29,11 @@ export const superAdminPaths = [
         name: "Create Project",
         path: "create-project",
         element: <CreateProject />,
+      },
+      {
+        name: "Contacts",
+        path: "contacts",
+        element: <Contact />,
       },
       {
         name: "Skills",

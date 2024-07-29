@@ -8,6 +8,7 @@ import Blogs from "../pages/admin/adminManagementView/Blogs";
 import CreateBlog from "../pages/admin/adminManagementCreate/CreateBlog";
 import CreateAdmin from "../pages/admin/adminManagementCreate/CreateAdmin";
 import AdminLists from "../pages/admin/adminManagementView/adminLists";
+import Contact from '../pages/admin/adminManagementView/Contact';
 
 export const adminPaths = [
   {
@@ -28,6 +29,11 @@ export const adminPaths = [
         name: "Create Project",
         path: "create-project",
         element: <CreateProject />,
+      },
+      {
+        name: "Contacts",
+        path: "contacts",
+        element: <Contact />,
       },
       {
         name: "Skills",
