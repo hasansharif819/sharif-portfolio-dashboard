@@ -3,3 +3,15 @@
   padding: 0;
   margin: 0;
 }
+
+.quill-description .quill {
+  padding: 10px 0 30px;
+}
+
+.quill-description .ql-editor {
+  min-height: 150px;
+}
+
+.file-input {
+  margin-bottom: 30px;
+}
